@@ -1,0 +1,287 @@
+/*Fonts 
+  font-family: 'annoneregular';    --- pokemon language
+  font-family: 'pocket_monkregular';   --- pokemon font
+  font-family: 'Krona One', sans-serif;  --- google font
+
+ */
+
+
+#page {
+  background: url("../images/cqhO8rQ-pokemon-wallpapers.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logo-container{
+    width: 100%;
+    height: 20%;
+}
+
+#pokemon-logo {
+  width: 30%;
+  height: 20%;
+
+}
+
+
+#trivia{
+    font-family: 'annoneregular';
+    font-weight: bolder;
+    font-size: 145px;
+    text-shadow: -3px 5px 6px #000000;
+    margin-top: -95px;
+}
+
+#quiz-container {
+    border: 20px solid transparent;
+    padding: 15px;
+    margin-bottom: 30px;
+    -webkit-border-image: url("../images/border.png") 20 round; /* Safari 3.1-5 */
+    -o-border-image: url("../images/border.png") 20 round; /* Opera 11-12.1 */
+    border-image: url("../images/border.png") 20 round;
+
+}
+
+
+/* CSS For all of the pokemon images! */
+#lucario {
+    position: absolute;
+    top: -150px;
+    right: -25px;
+    transform:scale(1.5);
+}
+#treecko {
+    position: absolute;
+    top: -200px;
+    left: -60px;
+    transform:scale(0.5);
+}
+
+#unown1 {
+    position: absolute;
+    top: -140px;
+    right: -460px;
+    transform:scale(0.45);
+}
+
+#unown2 {
+    position: absolute;
+    top: -140px;
+    left: -275px;
+    transform:scale(0.4);
+}
+
+#espeon{
+    position: absolute;
+    bottom: -165px;
+    left: -365px;
+    transform:scale(0.45);
+    margin-bottom: 15px; 
+}
+
+#umbreon{
+    position: absolute;
+    bottom: -105px;
+    right: -325px;
+    transform:scale(0.7);
+}
+
+#bulbasaur {
+    position: absolute;
+   
+    left: 275px;
+
+}
+#rhydon{
+    position: absolute;
+    bottom: 175px;
+    right: -350px;
+    transform:scale(1.4);
+}
+
+#spiritomb{
+    position: absolute;
+    left: -440px;
+    transform:scale(0.8);
+}
+
+#kingdra{
+    position: absolute;
+    left: -240px;
+    top: 160px;
+    transform:scale(0.75);
+}
+
+#mudkip{
+    position: absolute;
+    top: -625px;
+    transform:scale(0.15);
+}
+
+#torchic{
+    position: absolute;
+    top: -415px;
+    left: -20px;
+    transform:scale(0.25);
+}
+
+#mawile{
+    position: absolute;
+    top: -415px;
+    right: -245px;
+    transform:scale(0.5);
+}
+
+#gardevoir{
+    position: absolute;
+    top: 100px;
+    right: -385px;
+    transform:scale(1.25);
+}
+
+#ampharos{
+    position: absolute;
+    top: 320px;
+    left: -445px;
+    transform:scale(1);
+}
+
+#charizardY{
+    position: absolute;
+    top: -380px;
+    right: -435px;
+    transform:scale(1);
+}
+
+#charizardX{
+    position: absolute;
+    top: -375px;
+    left: -415px;
+    transform:scale(1);
+}
+/* CSS For all the pokemon images above! */
+
+
+
+h2 {
+    font-size: 100px;
+}
+
+#beginning-game{
+    font-family: 'pocket_monkregular';
+    text-align: center;
+    
+}
+
+#begin-btn{
+    font-family: 'annoneregular';
+    font-size: 100px;
+    margin: 15px;
+}
+
+#timer {
+    font-family: 'pocket_monkregular';
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+
+
+
+
+#question {
+    font-family: 'pocket_monkregular';
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* CSS for the different questions */
+
+#q {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.answer-choice {
+    font-family: 'Krona One', sans-serif;
+    font-size: 66px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.answer-choice:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#gif {
+    width: 500px;
+    height: 400px;
+}
+#next-btn{
+    position: relative;
+    text-align: center;
+    font-family: 'annoneregular';
+    font-size: 90px;
+    font-weight: bold;
+    margin: 15px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#next-btn:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#restart-btn{
+    position: relative;
+    text-align: center;
+    font-family: 'annoneregular';
+    font-size: 90px;
+    font-weight: bold;
+    margin: 15px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#restart-btn:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+@media (max-width: 2088px){
+    #timer {
+
+        font-size: 80px;
+ 
+    }
+
+    #question {
+
+        font-size: 50px;
+
+    }
+
+    .answer-choice {
+
+        font-size: 33px;
+
+    }
+};

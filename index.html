@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Linking BootStrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- Linking Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+    <!-- Linking Pokemon Fonts -->
+    <link href="assets/fonts/pokemonFont/stylesheet.css" rel="stylesheet">
+    <link href="assets/fonts/pokemonLanguage/stylesheet.css" rel="stylesheet">
+    <!-- Linking personal stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body class="container-fluid" id="page">
+
+    <header>
+        <div class="row justify-content-md-center" id="logo-container">
+            <img id="pokemon-logo" src="assets/images/pokemonLogo.png" alt="Pokemon Logo">
+
+
+        </div>
+        <div class="row justify-content-md-center">
+            <h1 id="trivia">Trivia</h1>
+        </div>
+    </header>
+    <section class="row justify-content-md-center">
+        <div class="col-lg-8" id="quiz-container">
+            <img id="lucario" src="assets/images/lucario.png" alt="Lucario">
+            <img id="treecko" src="assets/images/treecko.png" alt="Treecko">
+            
+            <div class="row justify-content-md-center" id="timer"></div>
+            <div class="row justify-content-md-center" id="question"></div>
+            <div class="row justify-content-md-center" id="choices"></div>
+            <div class="row justify-content-md-center" id="next"></div>
+            <div class="row justify-content-md-center" id="beginning-game">
+                <div class="col-lg-12">
+                     <h2>How well do you think you know Pokémon?</h2>
+                </div>
+               
+                <br>
+                <div class="col-lg-12">
+                    <h2>Press begin to find out...</h2>
+                </div>
+                
+            </div>
+
+            <div class="row justify-content-md-center" id = "begin">
+                <button type="button" class="btn btn-secondary btn-lg" id="begin-btn">Begin</button>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Linking jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <!-- BootStrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Linking my own JavaScript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
