@@ -419,7 +419,7 @@ function currentQuestion() {
   for (var i = 0; i < choices.length; i++) {
     var answerChoice = document.createElement("button");
     $(answerChoice).attr({
-      class: "answer-choice col-lg-12",
+      class: "answer-choice col-md-12",
       value: choices[i].correct //Gives each choices its property so later can be taken in by the event listener to see if the user choice was correct
     });
     $(answerChoice).html(letter[i] + choices[i].description);
